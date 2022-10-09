@@ -13,16 +13,17 @@ const [people ,setPeople] = useState(data);
         <main>
           <div className=" ">
             <div className=" ">
-              <span className="m-10 flex justify-center font-bold text-[#f5ebe0] text-2xl ">
+              <span className="mt-10 flex justify-center font-bold text-[#f5ebe0] text-2xl ">
                 {people.length} Birthday today
-                 
-                  <button
-                    className="bg-[#6d6875] py-2 px-10 rounded text-white "
-                    onClick={() => setPeople([])}
-                  >
-                    Clear All
-                  </button>
-                
+              </span>
+
+              <span className="mt-5  flex justify-center font-bold text-[#f5ebe0] text-2xl ">
+                <button
+                  className="bg-[#d5bdaf] hover:bg-[#935b3a] py-2 px-12 rounded-lg text-slate-900 "
+                  onClick={() => setPeople([])}
+                >
+                  Clear All
+                </button>
               </span>
 
               <List people={people} />
