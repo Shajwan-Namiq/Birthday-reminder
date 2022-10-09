@@ -1,2 +1,4 @@
 #### Simple App(Birthday - reminder)
-### using JSON
+###### Using JSON
+###### React Js
+######  Tailwind Css
